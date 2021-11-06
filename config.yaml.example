@@ -1,0 +1,16 @@
+links:
+- url: https://hotline.ua/computer-noutbuki-netbuki/apple-macbook-air-13-late-2020-series
+  alias: macbook hotline
+  selector: .price-lg .value
+  disable_message: false
+- url: https://ek.ua/APPLE-MACBOOK-AIR-13--2020--M1.htm
+  alias: macbook ek.ua
+  selector: '[itemprop=lowPrice]'
+  disable_message: false
+- url: https://www.olx.ua/uk/elektronika/noutbuki-i-aksesuary/q-macbook-m1/?search%5Bfilter_float_price%3Afrom%5D=18000&search%5Bfilter_float_price%3Ato%5D=25000
+  alias: macbook olx
+  selector: '#offers_table'
+  disable_message: true
+telegram:
+  token: 1111111:111111111111111111111111
+  chatid: 1111111
